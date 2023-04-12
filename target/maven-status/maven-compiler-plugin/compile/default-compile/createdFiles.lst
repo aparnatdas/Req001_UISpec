@@ -1,0 +1,5 @@
+base\BaseClass.class
+pageObjects\HomePage.class
+pageObjects\SupportPage.class
+stepDefinitions\HomeSteps.class
+stepDefinitions\SupportSteps.class
