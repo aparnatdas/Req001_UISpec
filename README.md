@@ -29,31 +29,7 @@ and TestRunner under runner/TestRunner
 
 Sample Feature File
 
-@HomePageTests @UISpecTests
-Feature: Home Page Functionalities Verification
-  As a user, I want to check specific operations on HomePage
-
-  Background:
-    Given User navigates to the Home Page
-
-  @HomePageRequestsTypesAndEndPoints
-  Scenario: Verify if user is able to check different requests types and endpoints
-    Given User reaches the HomePage
-    When User verifies different endpoints
-    And User verifies different request types
-    Then User checks the status code and closes the browser
-
-  @SampleRequestAndResponse @RequestNotFound
-  Scenario Outline: Selects and Verifies sample request and response
-    Given User reaches the HomePage
-    When User selects "<Endpoint>"
-    Then The request should be "<RequestType>"
-    And The response should be "<ResponseCode>"
-    And User closes the browser
-
-    Examples:
-      | Endpoint              | RequestType   | ResponseCode |
-      | SINGLE USER NOT FOUND | /api/users/23 | 404          |
+![image](https://user-images.githubusercontent.com/10363367/231384166-b13871ed-44f1-4753-a4ee-1e021bcc3347.png)
 
 Tags were added with respect to each tests.
 If examples are there, then instead of Scenario, Scenario Outline will be used 
