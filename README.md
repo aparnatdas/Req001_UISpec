@@ -16,7 +16,7 @@ Framework set up
 Fork / Clone repository from here or download zip and set it up in your local workspace.
 
 Test Runner
-TestRunner class can be used to run the tests with desired tags. '@UISpecTests'includes the whole tests or remove teh tags session to run all. Tests can be run using commands as well. 
+TestRunner class can be used to run the tests with desired tags. '@UISpecTests'includes the whole tests or remove the tags session to run all. Tests can be run using commands as well. 
 
 Reports
 Extend-spark report is used. It will be generated in test-results folder. 
