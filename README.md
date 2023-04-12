@@ -20,7 +20,7 @@ TestRunner class can be used to run the tests with desired tags. '@UISpecTests'i
 
 Reports
 Extend-spark report is used. It will be generated in test-results folder. 
-(Add screenshots)
+![image](https://user-images.githubusercontent.com/10363367/231363135-1a7f1439-f4e6-4cb1-851b-30f42e2b2f0c.png)
 
 JSON and HTML reports can also be generated
 The feature files are placed under src/test/java/features and corresponding step definitions under src/main/java/stepDefinitions
